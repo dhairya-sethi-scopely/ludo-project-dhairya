@@ -1,0 +1,249 @@
+{
+  "JWT_ALGO": "HS256",
+  "JWT_EXPIRY": 604800,
+  "JWT_COOKIE_NAME": "accessToken",
+  "COOKIE_PATH": "/",
+  "COOKIE_SECURE": false,
+  "COOKIE_HTTPONLY": true,
+  "REQUEST_HASH_ALGO": "sha256",
+  "TOKENS_PER_PLAYER": 4,
+
+  "ERRORS": {
+    "ERR_ID_900": {
+      "id": "ERR_ID_900",
+      "http": 401,
+      "code": 900,
+      "message": "Unauthorized — user must log in to access this resource."
+    },
+    "ERR_ID_901": {
+      "id": "ERR_ID_901",
+      "http": 401,
+      "code": 901,
+      "message": "Invalid or expired token — please log in again."
+    },
+    "ERR_ID_902": {
+      "id": "ERR_ID_902",
+      "http": 404,
+      "code": 902,
+      "message": "User not found or active session missing."
+    },
+    "ERR_ID_903": {
+      "id": "ERR_ID_903",
+      "http": 403,
+      "code": 903,
+      "message": "Authorization failed — access denied for this role."
+    },
+    "ERR_ID_904": {
+      "id": "ERR_ID_904",
+      "http": 401,
+      "code": 904,
+      "message": "Invalid credentials — incorrect username or password."
+    },
+    "ERR_ID_905": {
+      "id": "ERR_ID_905",
+      "http": 400,
+      "code": 905,
+      "message": "Missing required fields in request."
+    },
+    "ERR_ID_906": {
+      "id": "ERR_ID_906",
+      "http": 403,
+      "code": 906,
+      "message": "Request signature invalid — clientHash does not match expected value."
+    },
+    "ERR_ID_907": {
+      "id": "ERR_ID_907",
+      "http": 403,
+      "code": 907,
+      "message": "Forbidden — not your turn to make a move."
+    },
+    "ERR_ID_908": {
+      "id": "ERR_ID_908",
+      "http": 404,
+      "code": 908,
+      "message": "Token not found in game state."
+    },
+    "ERR_ID_909": {
+      "id": "ERR_ID_909",
+      "http": 422,
+      "code": 909,
+      "message": "Game move failed — invalid move or path blocked."
+    },
+    "ERR_ID_910": {
+      "id": "ERR_ID_910",
+      "http": 500,
+      "code": 910,
+      "message": "Internal server error — please try again later."
+    },
+    "ERR_ID_911": {
+      "id": "ERR_ID_911",
+      "http": 500,
+      "code": 911,
+      "message": "Configuration file missing — cannot start application."
+    },
+    "ERR_ID_912": {
+      "id": "ERR_ID_912",
+      "http": 500,
+      "code": 912,
+      "message": "Configuration file is invalid — syntax or format error."
+    },
+    "ERR_ID_913": {
+      "id": "ERR_ID_913",
+      "http": 500,
+      "code": 913,
+      "message": "Constants file missing or unreadable."
+    },
+    "ERR_ID_914": {
+      "id": "ERR_ID_914",
+      "http": 500,
+      "code": 914,
+      "message": "Incomplete configuration parameters — DB or secret key missing."
+    },
+    "ERR_ID_915": {
+      "id": "ERR_ID_915",
+      "http": 409,
+      "code": 915,
+      "message": "Username already exists — please choose a different username."
+    },
+    "ERR_ID_916": {
+      "id": "ERR_ID_916",
+      "http": 400,
+      "code": 916,
+      "message": "Invalid JSON input — body could not be parsed."
+    },
+    "ERR_ID_917": {
+      "id": "ERR_ID_917",
+      "http": 404,
+      "code": 917,
+      "message": "Game session not found or already ended."
+    },
+    "ERR_ID_918": {
+      "id": "ERR_ID_918",
+      "http": 422,
+      "code": 918,
+      "message": "Dice roll invalid — result must be between 1 and 6."
+    },
+    "ERR_ID_919": {
+      "id": "ERR_ID_919",
+      "http": 403,
+      "code": 919,
+      "message": "Move rejected — game state locked or awaiting opponent."
+    },
+    "ERR_ID_920": {
+      "id": "ERR_ID_920",
+      "http": 403,
+      "code": 920,
+      "message": "Unauthorized dice roll attempt — only the current player can roll."
+    },
+    "ERR_ID_921": {
+      "id": "ERR_ID_921",
+      "http": 500,
+      "code": 921,
+      "message": "Failed to update dice result in game state — please retry."
+    },
+  "ERR_ID_922": {
+      "id": "ERR_ID_922",
+      "http": 400,
+      "code": 922,
+      "message": "Player already has a pending multiplayer session."
+    },
+    "ERR_ID_923": {
+      "id": "ERR_ID_923",
+      "http": 400,
+      "code": 923,
+      "message": "Session expired — not enough players joined before grace period ended."
+    }
+  },
+
+  "MESSAGES": {
+    "MSG_ID_2000": {
+      "id": "MSG_ID_2000",
+      "message": "Token moved successfully."
+    },
+    "MSG_ID_2001": {
+      "id": "MSG_ID_2001",
+      "message": "Player has won the game!"
+    },
+    "MSG_ID_2002": {
+      "id": "MSG_ID_2002",
+      "message": "Game session created successfully."
+    },
+    "MSG_ID_2003": {
+      "id": "MSG_ID_2003",
+      "message": "Game state updated successfully."
+    },
+    "MSG_ID_2004": {
+      "id": "MSG_ID_2004",
+      "message": "Session ended successfully."
+    },
+    "MSG_ID_2005": {
+      "id": "MSG_ID_2005",
+      "message": "Player capture successful."
+    },
+    "MSG_ID_2006": {
+      "id": "MSG_ID_2006",
+      "message": "User registered successfully."
+    },
+    "MSG_ID_2007": {
+      "id": "MSG_ID_2007",
+      "message": "Login successful."
+    },
+    "MSG_ID_2008": {
+      "id": "MSG_ID_2008",
+      "message": "Logout successful."
+    },
+    "MSG_ID_2009": {
+      "id": "MSG_ID_2009",
+      "message": "Game state fetched successfully."
+    },
+    "MSG_ID_2010": {
+      "id": "MSG_ID_2010",
+      "message": "Game data saved successfully."
+    },
+    "MSG_ID_2011": {
+      "id": "MSG_ID_2011",
+      "message": "New player joined successfully."
+    },
+    "MSG_ID_2012": {
+      "id": "MSG_ID_2012",
+      "message": "Turn passed to next player."
+    },
+    "MSG_ID_2013": {
+      "id": "MSG_ID_2013",
+      "message": "AI move completed successfully."
+    },
+    "MSG_ID_2014": {
+      "id": "MSG_ID_2014",
+      "message": "Game paused."
+    },
+    "MSG_ID_2015": {
+      "id": "MSG_ID_2015",
+      "message": "Game resumed."
+    },
+    "MSG_ID_2016": {
+      "id": "MSG_ID_2016",
+      "message": "Dice rolled successfully."
+    },
+    "MSG_ID_2100": {
+    "id": "MSG_ID_2100",
+    "message": "AI move completed."
+    },
+    "MSG_ID_2101": {
+    "id": "MSG_ID_2101",
+    "message": "AI game session created successfully."
+    },
+    "MSG_ID_2102": {
+      "id": "MSG_ID_2102",
+      "message": "Multiplayer session created successfully."
+    },
+    "MSG_ID_2103": {
+      "id": "MSG_ID_2103",
+      "message": "Player joined existing multiplayer session."
+    },
+    "MSG_ID_2104": {
+      "id": "MSG_ID_2104",
+      "message": "Session activated — game started."
+    }
+  }
+  }
+

@@ -1,0 +1,1171 @@
+RAW INPUT:
+{
+  "username": "Player3",
+  "password": "123456",
+  "clientHash": "e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717"
+}
+
+Parsed Data:
+Array
+(
+    [username] => Player3
+    [password] => 123456
+    [clientHash] => e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+)
+
+
+Computed Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+Client Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+
+DB USER:
+User Object
+(
+    [user_id] => 0
+    [username] => 
+    [email] => 
+    [role] => player
+    [password_hash] => 
+)
+
+
+Password Verify Result: false
+Hash: 
+
+FAIL: Password invalid
+
+RAW INPUT:
+{
+  "username": "Player3",
+  "password": "123456",
+  "clientHash": "e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717"
+}
+
+Parsed Data:
+Array
+(
+    [username] => Player3
+    [password] => 123456
+    [clientHash] => e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+)
+
+
+Computed Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+Client Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+
+DB USER:
+User Object
+(
+    [user_id] => 7
+    [username] => Player3
+    [email] => player3@example.com
+    [password_hash] => $2y$10$CZ4AcQtIFZ727TUG4nlGk.Nz7X74gVEASXe50UtsWquj9gMLDabeC
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$CZ4AcQtIFZ727TUG4nlGk.Nz7X74gVEASXe50UtsWquj9gMLDabeC
+
+SUCCESS: Login passed
+
+RAW INPUT:
+{
+  "username": "Player3",
+  "password": "123456",
+  "clientHash": "e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717"
+}
+
+Parsed Data:
+Array
+(
+    [username] => Player3
+    [password] => 123456
+    [clientHash] => e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+)
+
+
+Computed Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+Client Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+
+DB USER:
+User Object
+(
+    [user_id] => 8
+    [username] => Player3
+    [email] => player3@example.com
+    [password_hash] => $2y$10$0Pg4ZzTsH9NMq9T62yNqMOcijzSFBn1AGfwBXX7/korFoxBsH2tjO
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$0Pg4ZzTsH9NMq9T62yNqMOcijzSFBn1AGfwBXX7/korFoxBsH2tjO
+
+SUCCESS: Login passed
+
+RAW INPUT:
+{
+  "username": "Player3",
+  "password": "123456",
+  "clientHash": "e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717"
+}
+
+
+Parsed Data:
+Array
+(
+    [username] => Player3
+    [password] => 123456
+    [clientHash] => e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+)
+
+
+Computed Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+Client Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+
+DB USER:
+
+
+FAIL: User not found
+
+RAW INPUT:
+{
+  "username": "Player3",
+  "password": "123456",
+  "clientHash": "e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717"
+}
+
+
+Parsed Data:
+Array
+(
+    [username] => Player3
+    [password] => 123456
+    [clientHash] => e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+)
+
+
+Computed Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+Client Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+
+DB USER:
+User Object
+(
+    [user_id] => 9
+    [username] => Player3
+    [email] => player3@example.com
+    [password_hash] => $2y$10$vKI28RnlJ3FZS/cvAOLO0.F/EFpULH4ImzK/aE1ZJfL2qFj4wZx9O
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$vKI28RnlJ3FZS/cvAOLO0.F/EFpULH4ImzK/aE1ZJfL2qFj4wZx9O
+
+SUCCESS: Login passed
+
+RAW INPUT:
+{
+  "username": "Player3",
+  "password": "123456",
+  "clientHash": "e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717"
+}
+
+
+Parsed Data:
+Array
+(
+    [username] => Player3
+    [password] => 123456
+    [clientHash] => e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+)
+
+
+Computed Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+Client Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+
+DB USER:
+User Object
+(
+    [user_id] => 10
+    [username] => Player3
+    [email] => player3@example.com
+    [password_hash] => $2y$10$DOk2dopCiiFiH/6bxDKEKO7ansacLoTtKAt49QXSc86nXDnuA6Umu
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$DOk2dopCiiFiH/6bxDKEKO7ansacLoTtKAt49QXSc86nXDnuA6Umu
+
+SUCCESS: Login passed
+
+RAW INPUT:
+{
+  "username": "Player3",
+  "password": "123456",
+  "clientHash": "e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717"
+}
+
+
+Parsed Data:
+Array
+(
+    [username] => Player3
+    [password] => 123456
+    [clientHash] => e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+)
+
+
+Computed Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+Client Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+
+DB USER:
+User Object
+(
+    [user_id] => 11
+    [username] => Player3
+    [email] => player3@example.com
+    [password_hash] => $2y$10$F/pTBIFsJjCc9BsP66chP.9GwlNANKDUfNYgfbGUWvTP10yRoSFaO
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$F/pTBIFsJjCc9BsP66chP.9GwlNANKDUfNYgfbGUWvTP10yRoSFaO
+
+SUCCESS: Login passed
+
+RAW INPUT:
+{
+  "username": "Player3",
+  "password": "123456",
+  "clientHash": "e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717"
+}
+
+
+Parsed Data:
+Array
+(
+    [username] => Player3
+    [password] => 123456
+    [clientHash] => e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+)
+
+
+Computed Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+Client Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+
+DB USER:
+User Object
+(
+    [user_id] => 12
+    [username] => Player3
+    [email] => player3@example.com
+    [password_hash] => $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+
+SUCCESS: Login passed — Generating JWT
+
+FAIL: JWT generation error: Class "Firebase\JWT\JWT" not found
+
+RAW INPUT:
+{
+  "username": "Player3",
+  "password": "123456",
+  "clientHash": "e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717"
+}
+
+
+Parsed Data:
+Array
+(
+    [username] => Player3
+    [password] => 123456
+    [clientHash] => e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+)
+
+
+Computed Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+Client Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+
+DB USER:
+User Object
+(
+    [user_id] => 12
+    [username] => Player3
+    [email] => player3@example.com
+    [password_hash] => $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+
+SUCCESS: Login passed — Generating JWT
+
+JWT Generated: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEyLCJ1c2VybmFtZSI6IlBsYXllcjMiLCJyb2xlIjoicGxheWVyIiwidXNlckhhc2giOiIxNjk2YTkxOTIwMjdjNjg5Yjg0OThhMjhkNzgwMjk5NTVhYTQ2NDJkOTcxM2NmMjEzNGY2NDk4Y2U1N2QyYWY1IiwiaWF0IjoxNzU5ODM5NzM4LCJleHAiOjE3NjA0NDQ1Mzh9.gurt-pzygLiwNoKUSb4DwNK0Z4HrDBTU9LbwWax83uU
+
+JWT Cookie set successfully.
+
+RAW INPUT:
+{
+  "username": "Player4",
+  "password": "123456",
+  "clientHash": "173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381"
+}
+
+
+Parsed Data:
+Array
+(
+    [username] => Player4
+    [password] => 123456
+    [clientHash] => 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+)
+
+
+Computed Hash: 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+Client Hash: 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+
+DB USER:
+User Object
+(
+    [user_id] => 13
+    [username] => Player4
+    [email] => player4@example.com
+    [password_hash] => $2y$10$TEiI806M1mg7xzkCFyEFuuVho0SB8L8jSCAMzzGrvBZgWo1JpQA/i
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$TEiI806M1mg7xzkCFyEFuuVho0SB8L8jSCAMzzGrvBZgWo1JpQA/i
+
+SUCCESS: Login passed — Generating JWT
+
+JWT Generated: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEzLCJ1c2VybmFtZSI6IlBsYXllcjQiLCJyb2xlIjoicGxheWVyIiwidXNlckhhc2giOiIzMGNlYzkyOTI2YzdlY2JiY2Y0OGM3NDE5M2E0ZDNmODM3MGQ1YzU3NzExYmM4MGY1NzE2YmJjZWY1NWUxNWE1IiwiaWF0IjoxNzU5ODUyODIzLCJleHAiOjE3NjA0NTc2MjN9.qjL3vCrcT1QZx_E5bfAfhHCDHw9dUAYkNUp-aRFtWW0
+
+JWT Cookie set successfully.
+
+RAW INPUT:
+{
+  "username": "Player3",
+  "password": "123456",
+  "clientHash": "e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717"
+}
+
+
+Parsed Data:
+Array
+(
+    [username] => Player3
+    [password] => 123456
+    [clientHash] => e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+)
+
+
+Computed Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+Client Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+
+DB USER:
+User Object
+(
+    [user_id] => 12
+    [username] => Player3
+    [email] => player3@example.com
+    [password_hash] => $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+
+SUCCESS: Login passed — Generating JWT
+
+JWT Generated: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEyLCJ1c2VybmFtZSI6IlBsYXllcjMiLCJyb2xlIjoicGxheWVyIiwidXNlckhhc2giOiIxNjk2YTkxOTIwMjdjNjg5Yjg0OThhMjhkNzgwMjk5NTVhYTQ2NDJkOTcxM2NmMjEzNGY2NDk4Y2U1N2QyYWY1IiwiaWF0IjoxNzU5ODUzOTQ4LCJleHAiOjE3NjA0NTg3NDh9.FNVOmbww_uujKHKnLzNLJfQR0n6K0-AnuCu-_2cbtxc
+
+JWT Cookie set successfully.
+
+RAW INPUT:
+{
+  "username": "Player4",
+  "password": "123456",
+  "clientHash": "173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381"
+}
+
+
+Parsed Data:
+Array
+(
+    [username] => Player4
+    [password] => 123456
+    [clientHash] => 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+)
+
+
+Computed Hash: 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+Client Hash: 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+
+DB USER:
+User Object
+(
+    [user_id] => 13
+    [username] => Player4
+    [email] => player4@example.com
+    [password_hash] => $2y$10$TEiI806M1mg7xzkCFyEFuuVho0SB8L8jSCAMzzGrvBZgWo1JpQA/i
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$TEiI806M1mg7xzkCFyEFuuVho0SB8L8jSCAMzzGrvBZgWo1JpQA/i
+
+SUCCESS: Login passed — Generating JWT
+
+JWT Generated: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEzLCJ1c2VybmFtZSI6IlBsYXllcjQiLCJyb2xlIjoicGxheWVyIiwidXNlckhhc2giOiIzMGNlYzkyOTI2YzdlY2JiY2Y0OGM3NDE5M2E0ZDNmODM3MGQ1YzU3NzExYmM4MGY1NzE2YmJjZWY1NWUxNWE1IiwiaWF0IjoxNzU5ODUzOTgwLCJleHAiOjE3NjA0NTg3ODB9.fa4Tem-NJORqzlXLcxAyRNT9cUOjobzzrWWJBI3pTTw
+
+JWT Cookie set successfully.
+
+RAW INPUT:
+{
+  "username": "Player3",
+  "password": "123456",
+  "clientHash": "e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717"
+}
+
+
+Parsed Data:
+Array
+(
+    [username] => Player3
+    [password] => 123456
+    [clientHash] => e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+)
+
+
+Computed Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+Client Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+
+DB USER:
+User Object
+(
+    [user_id] => 12
+    [username] => Player3
+    [email] => player3@example.com
+    [password_hash] => $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+
+SUCCESS: Login passed — Generating JWT
+
+JWT Generated: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEyLCJ1c2VybmFtZSI6IlBsYXllcjMiLCJyb2xlIjoicGxheWVyIiwidXNlckhhc2giOiIxNjk2YTkxOTIwMjdjNjg5Yjg0OThhMjhkNzgwMjk5NTVhYTQ2NDJkOTcxM2NmMjEzNGY2NDk4Y2U1N2QyYWY1IiwiaWF0IjoxNzU5ODYxMzIyLCJleHAiOjE3NjA0NjYxMjJ9.QJj40lN1mU4Y7RBxwtiJXn7i3w4R7Azcy7R2GN7OUvg
+
+JWT Cookie set successfully.
+
+RAW INPUT:
+{
+  "username": "Player4",
+  "password": "123456",
+  "clientHash": "173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381"
+}
+
+
+Parsed Data:
+Array
+(
+    [username] => Player4
+    [password] => 123456
+    [clientHash] => 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+)
+
+
+Computed Hash: 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+Client Hash: 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+
+DB USER:
+User Object
+(
+    [user_id] => 13
+    [username] => Player4
+    [email] => player4@example.com
+    [password_hash] => $2y$10$TEiI806M1mg7xzkCFyEFuuVho0SB8L8jSCAMzzGrvBZgWo1JpQA/i
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$TEiI806M1mg7xzkCFyEFuuVho0SB8L8jSCAMzzGrvBZgWo1JpQA/i
+
+SUCCESS: Login passed — Generating JWT
+
+JWT Generated: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEzLCJ1c2VybmFtZSI6IlBsYXllcjQiLCJyb2xlIjoicGxheWVyIiwidXNlckhhc2giOiIzMGNlYzkyOTI2YzdlY2JiY2Y0OGM3NDE5M2E0ZDNmODM3MGQ1YzU3NzExYmM4MGY1NzE2YmJjZWY1NWUxNWE1IiwiaWF0IjoxNzU5ODYxOTk0LCJleHAiOjE3NjA0NjY3OTR9.8chdToIBSs9RmtCT3r4sRNdkPcFEFD_UbL40aSauln4
+
+JWT Cookie set successfully.
+
+RAW INPUT:
+{
+  "username": "Player3",
+  "password": "123456",
+  "clientHash": "e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717"
+}
+
+
+Parsed Data:
+Array
+(
+    [username] => Player3
+    [password] => 123456
+    [clientHash] => e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+)
+
+
+Computed Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+Client Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+
+DB USER:
+User Object
+(
+    [user_id] => 12
+    [username] => Player3
+    [email] => player3@example.com
+    [password_hash] => $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+
+SUCCESS: Login passed — Generating JWT
+
+JWT Generated: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEyLCJ1c2VybmFtZSI6IlBsYXllcjMiLCJyb2xlIjoicGxheWVyIiwidXNlckhhc2giOiIxNjk2YTkxOTIwMjdjNjg5Yjg0OThhMjhkNzgwMjk5NTVhYTQ2NDJkOTcxM2NmMjEzNGY2NDk4Y2U1N2QyYWY1IiwiaWF0IjoxNzU5ODYzNTc4LCJleHAiOjE3NjA0NjgzNzh9.S2J8S1Xv4zFKO4ZLqFuBu12-IbYz7ORPeEgZ8jOmJHQ
+
+JWT Cookie set successfully.
+
+RAW INPUT:
+{
+  "username": "Player4",
+  "password": "123456",
+  "clientHash": "173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381"
+}
+
+Parsed Data:
+Array
+(
+    [username] => Player4
+    [password] => 123456
+    [clientHash] => 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+)
+
+
+Computed Hash: 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+Client Hash: 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+
+DB USER:
+User Object
+(
+    [user_id] => 13
+    [username] => Player4
+    [email] => player4@example.com
+    [password_hash] => $2y$10$TEiI806M1mg7xzkCFyEFuuVho0SB8L8jSCAMzzGrvBZgWo1JpQA/i
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$TEiI806M1mg7xzkCFyEFuuVho0SB8L8jSCAMzzGrvBZgWo1JpQA/i
+
+SUCCESS: Login passed — Generating JWT
+
+JWT Generated: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEzLCJ1c2VybmFtZSI6IlBsYXllcjQiLCJyb2xlIjoicGxheWVyIiwidXNlckhhc2giOiIzMGNlYzkyOTI2YzdlY2JiY2Y0OGM3NDE5M2E0ZDNmODM3MGQ1YzU3NzExYmM4MGY1NzE2YmJjZWY1NWUxNWE1IiwiaWF0IjoxNzU5OTE4MTY3LCJleHAiOjE3NjA1MjI5Njd9.5BhiZJdCx85hZvqyb8EwIoL5SeC0vtjqpaRw12_gmE0
+
+JWT Cookie set successfully.
+
+RAW INPUT:
+{
+  "username": "Player3",
+  "password": "123456",
+  "clientHash": "e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717"
+}
+
+
+Parsed Data:
+Array
+(
+    [username] => Player3
+    [password] => 123456
+    [clientHash] => e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+)
+
+
+Computed Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+Client Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+
+DB USER:
+User Object
+(
+    [user_id] => 12
+    [username] => Player3
+    [email] => player3@example.com
+    [password_hash] => $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+
+SUCCESS: Login passed — Generating JWT
+
+JWT Generated: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEyLCJ1c2VybmFtZSI6IlBsYXllcjMiLCJyb2xlIjoicGxheWVyIiwidXNlckhhc2giOiIxNjk2YTkxOTIwMjdjNjg5Yjg0OThhMjhkNzgwMjk5NTVhYTQ2NDJkOTcxM2NmMjEzNGY2NDk4Y2U1N2QyYWY1IiwiaWF0IjoxNzU5OTE4MTg1LCJleHAiOjE3NjA1MjI5ODV9.qdfUUnh5zoiiXsc_IrI8AtvBNl077zWW6uwbAk0DXfs
+
+JWT Cookie set successfully.
+
+RAW INPUT:
+{
+  "username": "Player4",
+  "password": "123456",
+  "clientHash": "173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381"
+}
+
+Parsed Data:
+Array
+(
+    [username] => Player4
+    [password] => 123456
+    [clientHash] => 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+)
+
+
+Computed Hash: 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+Client Hash: 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+
+DB USER:
+User Object
+(
+    [user_id] => 13
+    [username] => Player4
+    [email] => player4@example.com
+    [password_hash] => $2y$10$TEiI806M1mg7xzkCFyEFuuVho0SB8L8jSCAMzzGrvBZgWo1JpQA/i
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$TEiI806M1mg7xzkCFyEFuuVho0SB8L8jSCAMzzGrvBZgWo1JpQA/i
+
+SUCCESS: Login passed — Generating JWT
+
+JWT Generated: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEzLCJ1c2VybmFtZSI6IlBsYXllcjQiLCJyb2xlIjoicGxheWVyIiwidXNlckhhc2giOiIzMGNlYzkyOTI2YzdlY2JiY2Y0OGM3NDE5M2E0ZDNmODM3MGQ1YzU3NzExYmM4MGY1NzE2YmJjZWY1NWUxNWE1IiwiaWF0IjoxNzU5OTE4MjAzLCJleHAiOjE3NjA1MjMwMDN9.E7JLOWY_GontczFZxKmQysEXAd7IldqebYQDasXEKCM
+
+JWT Cookie set successfully.
+
+RAW INPUT:
+{
+  "username": "Player3",
+  "password": "123456",
+  "clientHash": "e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717"
+}
+
+
+Parsed Data:
+Array
+(
+    [username] => Player3
+    [password] => 123456
+    [clientHash] => e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+)
+
+
+Computed Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+Client Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+
+DB USER:
+User Object
+(
+    [user_id] => 12
+    [username] => Player3
+    [email] => player3@example.com
+    [password_hash] => $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+
+SUCCESS: Login passed — Generating JWT
+
+JWT Generated: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEyLCJ1c2VybmFtZSI6IlBsYXllcjMiLCJyb2xlIjoicGxheWVyIiwidXNlckhhc2giOiIxNjk2YTkxOTIwMjdjNjg5Yjg0OThhMjhkNzgwMjk5NTVhYTQ2NDJkOTcxM2NmMjEzNGY2NDk4Y2U1N2QyYWY1IiwiaWF0IjoxNzU5OTE4MjEyLCJleHAiOjE3NjA1MjMwMTJ9.-QGwXaSwnBvTbVjnaCA999U5P1DP5bJk3d9NvsF8yZ4
+
+JWT Cookie set successfully.
+
+RAW INPUT:
+{
+  "username": "Player4",
+  "password": "123456",
+  "clientHash": "173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381"
+}
+
+
+Parsed Data:
+Array
+(
+    [username] => Player4
+    [password] => 123456
+    [clientHash] => 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+)
+
+
+Computed Hash: 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+Client Hash: 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+
+DB USER:
+User Object
+(
+    [user_id] => 13
+    [username] => Player4
+    [email] => player4@example.com
+    [password_hash] => $2y$10$TEiI806M1mg7xzkCFyEFuuVho0SB8L8jSCAMzzGrvBZgWo1JpQA/i
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$TEiI806M1mg7xzkCFyEFuuVho0SB8L8jSCAMzzGrvBZgWo1JpQA/i
+
+SUCCESS: Login passed — Generating JWT
+
+JWT Generated: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEzLCJ1c2VybmFtZSI6IlBsYXllcjQiLCJyb2xlIjoicGxheWVyIiwidXNlckhhc2giOiIzMGNlYzkyOTI2YzdlY2JiY2Y0OGM3NDE5M2E0ZDNmODM3MGQ1YzU3NzExYmM4MGY1NzE2YmJjZWY1NWUxNWE1IiwiaWF0IjoxNzU5OTQ4MDA3LCJleHAiOjE3NjA1NTI4MDd9.Y0pNtHkykXw-f37tfNis1Z8zi9dM9jf_z9505-PknBw
+
+JWT Cookie set successfully.
+
+RAW INPUT:
+{
+  "username": "Player3",
+  "password": "123456",
+  "clientHash": "e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717"
+}
+
+
+Parsed Data:
+Array
+(
+    [username] => Player3
+    [password] => 123456
+    [clientHash] => e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+)
+
+
+Computed Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+Client Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+
+DB USER:
+User Object
+(
+    [user_id] => 12
+    [username] => Player3
+    [email] => player3@example.com
+    [password_hash] => $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+
+SUCCESS: Login passed — Generating JWT
+
+JWT Generated: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEyLCJ1c2VybmFtZSI6IlBsYXllcjMiLCJyb2xlIjoicGxheWVyIiwidXNlckhhc2giOiIxNjk2YTkxOTIwMjdjNjg5Yjg0OThhMjhkNzgwMjk5NTVhYTQ2NDJkOTcxM2NmMjEzNGY2NDk4Y2U1N2QyYWY1IiwiaWF0IjoxNzU5OTUxMzUzLCJleHAiOjE3NjA1NTYxNTN9.CYiLskVY-1_8MTLe9vsiTAFC-3v6r0XQwzwqhVR7GaE
+
+JWT Cookie set successfully.
+
+RAW INPUT:
+{
+  "username": "Player4",
+  "password": "123456",
+  "clientHash": "173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381"
+}
+
+Parsed Data:
+Array
+(
+    [username] => Player4
+    [password] => 123456
+    [clientHash] => 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+)
+
+
+Computed Hash: 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+Client Hash: 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+
+DB USER:
+User Object
+(
+    [user_id] => 13
+    [username] => Player4
+    [email] => player4@example.com
+    [password_hash] => $2y$10$TEiI806M1mg7xzkCFyEFuuVho0SB8L8jSCAMzzGrvBZgWo1JpQA/i
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$TEiI806M1mg7xzkCFyEFuuVho0SB8L8jSCAMzzGrvBZgWo1JpQA/i
+
+SUCCESS: Login passed — Generating JWT
+
+JWT Generated: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEzLCJ1c2VybmFtZSI6IlBsYXllcjQiLCJyb2xlIjoicGxheWVyIiwidXNlckhhc2giOiIzMGNlYzkyOTI2YzdlY2JiY2Y0OGM3NDE5M2E0ZDNmODM3MGQ1YzU3NzExYmM4MGY1NzE2YmJjZWY1NWUxNWE1IiwiaWF0IjoxNzU5OTUxNDMwLCJleHAiOjE3NjA1NTYyMzB9.frAjA2YlohzdQIMumHZLVS1tmmJhHLy0kfPYKC-mDEI
+
+JWT Cookie set successfully.
+
+RAW INPUT:
+{
+  "username": "Player3",
+  "password": "123456",
+  "clientHash": "e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717"
+}
+
+
+Parsed Data:
+Array
+(
+    [username] => Player3
+    [password] => 123456
+    [clientHash] => e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+)
+
+
+Computed Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+Client Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+
+DB USER:
+User Object
+(
+    [user_id] => 12
+    [username] => Player3
+    [email] => player3@example.com
+    [password_hash] => $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+
+SUCCESS: Login passed — Generating JWT
+
+JWT Generated: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEyLCJ1c2VybmFtZSI6IlBsYXllcjMiLCJyb2xlIjoicGxheWVyIiwidXNlckhhc2giOiIxNjk2YTkxOTIwMjdjNjg5Yjg0OThhMjhkNzgwMjk5NTVhYTQ2NDJkOTcxM2NmMjEzNGY2NDk4Y2U1N2QyYWY1IiwiaWF0IjoxNzU5OTUxNDQxLCJleHAiOjE3NjA1NTYyNDF9.Vx60Rl8oYOgTCHdi1tjXPXoEhO6O2LK8kWCo-AZuZZ0
+
+JWT Cookie set successfully.
+
+RAW INPUT:
+{
+  "username": "Player4",
+  "password": "123456",
+  "clientHash": "173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381"
+}
+
+Parsed Data:
+Array
+(
+    [username] => Player4
+    [password] => 123456
+    [clientHash] => 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+)
+
+
+Computed Hash: 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+Client Hash: 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+
+DB USER:
+User Object
+(
+    [user_id] => 13
+    [username] => Player4
+    [email] => player4@example.com
+    [password_hash] => $2y$10$TEiI806M1mg7xzkCFyEFuuVho0SB8L8jSCAMzzGrvBZgWo1JpQA/i
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$TEiI806M1mg7xzkCFyEFuuVho0SB8L8jSCAMzzGrvBZgWo1JpQA/i
+
+SUCCESS: Login passed — Generating JWT
+
+JWT Generated: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEzLCJ1c2VybmFtZSI6IlBsYXllcjQiLCJyb2xlIjoicGxheWVyIiwidXNlckhhc2giOiIzMGNlYzkyOTI2YzdlY2JiY2Y0OGM3NDE5M2E0ZDNmODM3MGQ1YzU3NzExYmM4MGY1NzE2YmJjZWY1NWUxNWE1IiwiaWF0IjoxNzU5OTUxNDUzLCJleHAiOjE3NjA1NTYyNTN9.kOJetCt3sGI74SLjadePJGHs3udIoCwPSCfjK1CMX5k
+
+JWT Cookie set successfully.
+
+RAW INPUT:
+{
+  "username": "Player3",
+  "password": "123456",
+  "clientHash": "e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717"
+}
+
+
+Parsed Data:
+Array
+(
+    [username] => Player3
+    [password] => 123456
+    [clientHash] => e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+)
+
+
+Computed Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+Client Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+
+DB USER:
+User Object
+(
+    [user_id] => 12
+    [username] => Player3
+    [email] => player3@example.com
+    [password_hash] => $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+
+SUCCESS: Login passed — Generating JWT
+
+JWT Generated: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEyLCJ1c2VybmFtZSI6IlBsYXllcjMiLCJyb2xlIjoicGxheWVyIiwidXNlckhhc2giOiIxNjk2YTkxOTIwMjdjNjg5Yjg0OThhMjhkNzgwMjk5NTVhYTQ2NDJkOTcxM2NmMjEzNGY2NDk4Y2U1N2QyYWY1IiwiaWF0IjoxNzU5OTUxNDYzLCJleHAiOjE3NjA1NTYyNjN9.joyIvL0egUmT643DAT7rkWbs_hVYewnTIUyzbhxeulA
+
+JWT Cookie set successfully.
+
+RAW INPUT:
+{
+  "username": "Player3",
+  "password": "123456",
+  "clientHash": "e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717"
+}
+
+
+Parsed Data:
+Array
+(
+    [username] => Player3
+    [password] => 123456
+    [clientHash] => e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+)
+
+
+Computed Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+Client Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+
+DB USER:
+User Object
+(
+    [user_id] => 12
+    [username] => Player3
+    [email] => player3@example.com
+    [password_hash] => $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+
+SUCCESS: Login passed — Generating JWT
+
+JWT Generated: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEyLCJ1c2VybmFtZSI6IlBsYXllcjMiLCJyb2xlIjoicGxheWVyIiwidXNlckhhc2giOiIxNjk2YTkxOTIwMjdjNjg5Yjg0OThhMjhkNzgwMjk5NTVhYTQ2NDJkOTcxM2NmMjEzNGY2NDk4Y2U1N2QyYWY1IiwiaWF0IjoxNzYwMDE1MjEwLCJleHAiOjE3NjA2MjAwMTB9.WnjyoBF6rSPWoTAcOEIM3d8KJRRnJSSQ5rbI4oJmvYw
+
+JWT Cookie set successfully.
+
+RAW INPUT:
+{
+  "username": "Player3",
+  "password": "123456",
+  "clientHash": "e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717"
+}
+
+
+Parsed Data:
+Array
+(
+    [username] => Player3
+    [password] => 123456
+    [clientHash] => e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+)
+
+
+Computed Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+Client Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+
+DB USER:
+User Object
+(
+    [user_id] => 12
+    [username] => Player3
+    [email] => player3@example.com
+    [password_hash] => $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+
+SUCCESS: Login passed — Generating JWT
+
+JWT Generated: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEyLCJ1c2VybmFtZSI6IlBsYXllcjMiLCJyb2xlIjoicGxheWVyIiwidXNlckhhc2giOiIxNjk2YTkxOTIwMjdjNjg5Yjg0OThhMjhkNzgwMjk5NTVhYTQ2NDJkOTcxM2NmMjEzNGY2NDk4Y2U1N2QyYWY1IiwiaWF0IjoxNzYwMDM2MDc2LCJleHAiOjE3NjA2NDA4NzZ9.6VV2eY5CaIiEQKb-S8DBkkTJY8r06GJ_UtqPCurI3HA
+
+JWT Cookie set successfully.
+
+RAW INPUT:
+{
+  "username": "Player5",
+  "password": "123456",
+  "clientHash": "1dc97096e4dcd9764da31cffc3ac9a95892b771de8ded88444c290f4f34d18dc"
+}
+
+Parsed Data:
+Array
+(
+    [username] => Player5
+    [password] => 123456
+    [clientHash] => 1dc97096e4dcd9764da31cffc3ac9a95892b771de8ded88444c290f4f34d18dc
+)
+
+
+Computed Hash: 1dc97096e4dcd9764da31cffc3ac9a95892b771de8ded88444c290f4f34d18dc
+Client Hash: 1dc97096e4dcd9764da31cffc3ac9a95892b771de8ded88444c290f4f34d18dc
+
+DB USER:
+User Object
+(
+    [user_id] => 14
+    [username] => Player5
+    [email] => player5@example.com
+    [password_hash] => $2y$10$rOJw9q4XXxDDdpTuAoYAi.MtYSlGfboO/w4DEKQ4saJbxf4aGhXHm
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$rOJw9q4XXxDDdpTuAoYAi.MtYSlGfboO/w4DEKQ4saJbxf4aGhXHm
+
+SUCCESS: Login passed — Generating JWT
+
+JWT Generated: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjE0LCJ1c2VybmFtZSI6IlBsYXllcjUiLCJyb2xlIjoicGxheWVyIiwidXNlckhhc2giOiJkMmQyMjdkYzVkOTYyOTdjNjVlZDRiNzJmNjg3ZDU2NzhlN2YyODQ2NTIyNmU0NmVmNTdjNGQwMDRhZTI3MjM4IiwiaWF0IjoxNzYwMDM4MzMzLCJleHAiOjE3NjA2NDMxMzN9.b4zW6CxdOoT_847Tl5uaddVkQMyCAl1esjPisls3x9Q
+
+JWT Cookie set successfully.
+
+RAW INPUT:
+{
+  "username": "Player3",
+  "password": "123456",
+  "clientHash": "e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717"
+}
+
+
+Parsed Data:
+Array
+(
+    [username] => Player3
+    [password] => 123456
+    [clientHash] => e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+)
+
+
+Computed Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+Client Hash: e563df954f6bf30397149b4701ce5bb94fa1ba93edcf24138b2f68fddec6d717
+
+DB USER:
+User Object
+(
+    [user_id] => 12
+    [username] => Player3
+    [email] => player3@example.com
+    [password_hash] => $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$JiiBkpIWWJ9LEBLTg9AC4umZPsJIHO.1mHoCHpAbcRfjtRAXSIDJu
+
+SUCCESS: Login passed — Generating JWT
+
+JWT Generated: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEyLCJ1c2VybmFtZSI6IlBsYXllcjMiLCJyb2xlIjoicGxheWVyIiwidXNlckhhc2giOiIxNjk2YTkxOTIwMjdjNjg5Yjg0OThhMjhkNzgwMjk5NTVhYTQ2NDJkOTcxM2NmMjEzNGY2NDk4Y2U1N2QyYWY1IiwiaWF0IjoxNzYwMDQwNDE1LCJleHAiOjE3NjA2NDUyMTV9.RihV1Db25SRiE6jmSdhlKwZnySy7AabSpZkv78Bg944
+
+JWT Cookie set successfully.
+
+RAW INPUT:
+{
+  "username": "Player4",
+  "password": "123456",
+  "clientHash": "173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381"
+}
+
+Parsed Data:
+Array
+(
+    [username] => Player4
+    [password] => 123456
+    [clientHash] => 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+)
+
+
+Computed Hash: 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+Client Hash: 173fc097e45e43d652bf8cb563b31478e82c152644dec0f32fb9dc41f0565381
+
+DB USER:
+User Object
+(
+    [user_id] => 13
+    [username] => Player4
+    [email] => player4@example.com
+    [password_hash] => $2y$10$TEiI806M1mg7xzkCFyEFuuVho0SB8L8jSCAMzzGrvBZgWo1JpQA/i
+    [role] => player
+)
+
+
+Password Verify Result: true
+Hash: $2y$10$TEiI806M1mg7xzkCFyEFuuVho0SB8L8jSCAMzzGrvBZgWo1JpQA/i
+
+SUCCESS: Login passed — Generating JWT
+
+JWT Generated: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEzLCJ1c2VybmFtZSI6IlBsYXllcjQiLCJyb2xlIjoicGxheWVyIiwidXNlckhhc2giOiIzMGNlYzkyOTI2YzdlY2JiY2Y0OGM3NDE5M2E0ZDNmODM3MGQ1YzU3NzExYmM4MGY1NzE2YmJjZWY1NWUxNWE1IiwiaWF0IjoxNzYwMDQwNDIzLCJleHAiOjE3NjA2NDUyMjN9.X-79HKlrgfWSfGRWa3xx32vrlSgf9HKcWDWbZtiXd0U
+
+JWT Cookie set successfully.
+
+RAW INPUT:
+{"username":"PlayerAPI_712","password":"123456","timestamp":1760045489,"clientHash":"9a453a32c77e6e6a05421e5e071406254d23285f3d61fa5e104dfcba0d9cf354"}
+
+Parsed Data:
+Array
+(
+    [username] => PlayerAPI_712
+    [password] => 123456
+    [timestamp] => 1760045489
+    [clientHash] => 9a453a32c77e6e6a05421e5e071406254d23285f3d61fa5e104dfcba0d9cf354
+)
+
+
+Computed Hash: 9a453a32c77e6e6a05421e5e071406254d23285f3d61fa5e104dfcba0d9cf354
+Client Hash: 9a453a32c77e6e6a05421e5e071406254d23285f3d61fa5e104dfcba0d9cf354
+
+DB USER:
+
+
+FAIL: User not found
+

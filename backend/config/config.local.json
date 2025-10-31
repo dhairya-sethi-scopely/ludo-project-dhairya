@@ -1,0 +1,11 @@
+{
+    "app_mode": "test",
+    "db": {
+        "host": "127.0.0.1",
+        "db_name": "ludo_db",
+        "username": "root",
+        "password": "root",
+        "port": 8889
+    },
+    "secret_key": "test_secret_key"
+}

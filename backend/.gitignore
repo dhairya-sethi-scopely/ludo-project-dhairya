@@ -1,0 +1,24 @@
+# ===== Backend Configuration & Sensitive Files =====
+backend/config/config.local.json
+backend/logs/
+backend/php_error.log
+backend/tests/
+backend/test-db.php
+
+# PHP / Composer dependencies
+backend/vendor/
+
+# PHPUnit Cache
+backend/.phpunit.cache/
+
+# ===== Frontend Build Artifacts =====
+frontend/node_modules/
+frontend/dist/
+
+# ===== IDE / Environment =====
+.idea/
+.vscode/
+.env/
+
+# ===== macOS System Files =====
+.DS_Store

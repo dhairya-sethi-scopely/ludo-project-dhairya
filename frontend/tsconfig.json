@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    /* === Output settings === */
+    "target": "ES2020",                        // ✅ supports dynamic import()
+    "module": "ES2020",                        // ✅ supports import/export + import()
+    "rootDir": "./src",
+    "outDir": "./dist/js",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowJs": false,
+
+    /* === Emission behavior === */
+    "noEmitOnError": false,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+
+    /* === Type checking === */
+    "strict": true,
+    "skipLibCheck": true,
+
+    /* === Environment support === */
+    "lib": ["DOM", "ES2020"],                 // ✅ newer JS features, same as browsers
+
+    /* === Debugging / Rebuild === */
+    "sourceMap": false,
+    "incremental": false
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

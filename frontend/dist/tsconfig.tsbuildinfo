@@ -1,0 +1,1 @@
+{"root":["../src/main.ts","../src/api/authapi.ts","../src/api/gameapi.ts","../src/api/multiplayerapi.ts","../src/core/boardpath.ts","../src/core/boardrenderer.ts","../src/core/state.ts","../src/core/tokenmodel.ts","../src/core/types.ts","../src/ui/authui.ts","../src/ui/mainpvp.ts","../src/ui/menuui.ts","../src/ui/resultdeclared.ts","../src/ui/waitingui.ts"],"version":"5.9.3"}

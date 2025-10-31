@@ -1,0 +1,411 @@
+/* ========= GLOBAL STYLES ========= */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(45deg, #d9534f, #f0ad4e, #28a745, #007bff);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  position: relative;
+  z-index: 0;
+}
+
+/* --- Overlay for subtle fade --- */
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  z-index: -1;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.title {
+  margin: 20px 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #222;
+}
+
+/* ========= LUDO GRID ========= */
+.outer {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(15, 1fr);
+  width: 90vmin;
+  height: 90vmin;
+  margin: 20px auto;
+  border: 3px solid #333;
+  aspect-ratio: 1 / 1;
+  position: relative;
+}
+
+/* ===== GRID CELLS ===== */
+.cell {
+  border: 1px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* ===== GREY INNER CIRCLE IN EACH CELL ===== */
+.cell::before {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  background-color: #ccc;
+  border-radius: 50%;
+  opacity: 0.6;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+/* ===== COLORED ZONES ===== */
+.red {
+  background: #ff4d4d;
+}
+
+.green {
+  background: #4caf50;
+}
+
+.blue {
+  background: #507aff;
+}
+
+.yellow {
+  background: #ffc107;
+}
+
+.star {
+  font-size: 32px;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===== HOME BOXES ===== */
+.box {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  z-index: 0;
+}
+
+.box.red_home {
+  grid-area: 1 / 1 / 7 / 7;
+  background: #ffe0e0;
+}
+
+.box.green_home {
+  grid-area: 1 / 10 / 7 / 16;
+  background: #e0ffe0;
+}
+
+.box.blue_home {
+  grid-area: 10 / 1 / 16 / 7;
+  background: #e0e0ff;
+}
+
+.box.yellow_home {
+  grid-area: 10 / 10 / 16 / 16;
+  background: #fff7d6;
+}
+
+/* === Each HOME box: 2×2 token bases === */
+.box.red_home,
+.box.blue_home,
+.box.green_home,
+.box.yellow_home {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  padding: 12px;
+}
+
+/* === White circular token bases === */
+.box .circle {
+  width: 70px;
+  height: 70px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  flex: 0 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* ===== INNER TOKENS ===== */
+.inner_circle {
+  position: absolute;
+  /* always relative to .cell */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  /* proportional inside its cell */
+  height: 70%;
+  border-radius: 50%;
+  z-index: 3;
+  transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
+}
+
+/* ===== TOKEN COLORS ===== */
+.red_bg {
+  background-color: #961010;
+}
+
+.blue_bg {
+  background-color: #012086;
+}
+
+.green_bg {
+  background-color: #006a04;
+}
+
+.yellow_bg {
+  background-color: #d29e00;
+}
+
+/* ===== TOKEN STATES ===== */
+.inner_circle.active {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.inner_circle.highlight {
+  box-shadow: 0 0 12px 4px gold;
+  cursor: pointer;
+}
+
+/* ===== BORDER COLORS FOR YARDS ===== */
+.border_red {
+  border: 5px solid #f44336;
+}
+
+.border_green {
+  border: 5px solid #4caf50;
+}
+
+.border_blue {
+  border: 5px solid #2196f3;
+}
+
+.border_yellow {
+  border: 5px solid #ffeb3b;
+}
+
+/* ===== CENTER TRIANGLE ===== */
+.ludo_home {
+  grid-area: 7 / 7 / 10 / 10;
+  height: 0;
+  width: 0;
+  border-left: 72px solid red;
+  border-right: 72px solid yellow;
+  border-top: 72px solid green;
+  border-bottom: 72px solid blue;
+  box-sizing: content-box;
+  z-index: 4;
+}
+
+/* === NEW: Home container that holds tokens === */
+.ludo_home_container {
+  grid-area: 7 / 7 / 10 / 10;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+  z-index: 10;
+  /* above triangle */
+}
+
+.ludo_home_container .inner_circle {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ===== HOME GLOW ANIMATION ===== */
+@keyframes homeGlow {
+  0% {
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.4));
+    transform: scale(1);
+  }
+
+  50% {
+    filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+    transform: scale(1.05);
+  }
+
+  100% {
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.4));
+    transform: scale(1);
+  }
+}
+
+/* Triggered glow state */
+.ludo_home_container.glow .ludo_home {
+  animation: homeGlow 1.2s ease-in-out 2;
+  /* lasts ~2s total */
+  transition: all 0.3s ease;
+}
+
+/* ===== CONTROLS ===== */
+.controls {
+  margin-top: 30px;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  background-color: #009d60;
+  color: white;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #007744;
+}
+
+#diceValue,
+#turnInfo {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #333;
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* ===== Visibility Rules ===== */
+.red_home .inner_circle.red_bg,
+.green_home .inner_circle.green_bg,
+.blue_home .inner_circle.blue_bg,
+.yellow_home .inner_circle.yellow_bg {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Track tokens hidden until activated on the path */
+.outer .cell .inner_circle {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+
+/* When token moves onto a path cell */
+.outer .cell .inner_circle.active {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Yard tokens always visible */
+.box .inner_circle {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* ===== Active yard glow ===== */
+@keyframes yardGlow {
+  0% {
+    box-shadow: 0 0 10px 4px rgba(255, 255, 255, 0.5);
+  }
+
+  50% {
+    box-shadow: 0 0 30px 12px rgba(255, 255, 255, 0.8);
+  }
+
+  100% {
+    box-shadow: 0 0 10px 4px rgba(255, 255, 255, 0.5);
+  }
+}
+
+.box[style*="box-shadow"] {
+  animation: yardGlow 1.5s infinite ease-in-out;
+  transition: all 0.3s ease;
+}
+
+/* ===== PLAYER LABELS ===== */
+.player-label {
+  position: absolute;
+  font-weight: bold;
+  font-size: 14px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  padding: 2px 6px;
+  border-radius: 6px;
+  z-index: 5;
+}
+
+.red-label {
+  color: #fff;
+  background-color: rgba(220, 20, 60, 0.8);
+  top: -25px;
+  left: 5px;
+}
+
+.blue-label {
+  color: #fff;
+  background-color: rgba(30, 144, 255, 0.8);
+  top: -25px;
+  left: 5px;
+}
